@@ -1,0 +1,10 @@
+food = input(" taco ")
+plant = input(" tree ")
+cookingType = input(" bake ")
+burntFood = input(" cryspy ")
+householdItem = input(" bed ")
+
+print()
+print("Tonight's dinner:")
+
+print("For dinner you should make", bake, tacos, "with", bacen, tree, "on a plate of", bed)
