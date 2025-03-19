@@ -1,0 +1,36 @@
+#endregion VEXcode Generated Robot Configuration
+myVariable = 0
+
+def when_started1():
+global myVariable
+drivetrain.drive_for(FORWARD, 5.5, INCHES)
+drivetrain.turn_for(RIGHT, 90, DEGREES)
+drivetrain.drive_for(FORWARD, 2, INCHES)
+drivetrain.turn_for(RIGHT, 45, DEGREES)
+drivetrain.drive_for(FORWARD, 1.5, INCHES)
+drivetrain.turn_for(LEFT, 45, DEGREES)
+drivetrain.set_drive_velocity(300, PERCENT)
+drivetrain.drive_for(FORWARD, 17, MM)
+drivetrain.stop()
+drivetrain.set_drive_velocity(100, PERCENT)
+drivetrain.turn_for(LEFT, 46, DEGREES)
+drivetrain.drive_for(FORWARD, 1.5, INCHES)
+drivetrain.set_drive_velocity(500, PERCENT)
+drivetrain.drive_for(FORWARD, 9.5, INCHES)
+drivetrain.stop()
+drivetrain.set_drive_velocity(100, PERCENT)
+drivetrain.turn_for(LEFT, 98, DEGREES)
+drivetrain.drive_for(FORWARD, 1, INCHES)
+drivetrain.turn_for(LEFT, 15, DEGREES)
+drivetrain.drive_for(FORWARD, 37, MM)
+drivetrain.turn_for(RIGHT, 15, DEGREES)
+drivetrain.drive_for(FORWARD, 27, INCHES)
+drivetrain.turn_for(RIGHT, 78, DEGREES)
+drivetrain.drive_for(FORWARD, 12, INCHES)
+drivetrain.drive_for(REVERSE, 7.5, INCHES)
+drivetrain.turn_for(RIGHT, 53, DEGREES)
+drivetrain.drive_for(FORWARD, 6, INCHES)
+drivetrain.turn_for(RIGHT, 37, DEGREES)
+drivetrain.drive_for(FORWARD, 30, INCHES)
+
+when_started1()
